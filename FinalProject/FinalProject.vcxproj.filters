@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="2.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="3.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="4.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="AC.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="atap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="biliard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate_diffusemap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate_specularmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="depanAC.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dinding.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="jam.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kaki.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="keyboard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kotakvendingmachine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lampu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lcd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lukisan1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lukisan2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lukisan3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lukisan4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="marble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="marmer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mejabilliard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mouse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pintu.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resepsionis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sofa.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="standlampu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="vendingmachine.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="texturedCube.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="texturedCube.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vertexShader.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fragmentShader.frag">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
